@@ -1,0 +1,47 @@
+# Go
+*.a
+*.b
+*.o
+*.exe
+*.test
+*.gosave
+*.swag.json
+
+# Editor/IDE temporary files
+*.DS_Store
+._*
+*.swp
+*.vim
+*.vscode/
+*.idea/
+*.tmproj
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+bin/
+pkg/
+
+# Dependencies (if you are NOT using go modules)
+# vendor/
+
+# Debugging
+*.pdb
+
+# Logs
+*.log
+
+# OS generated files
+.AppleDouble
+.AppleMetaSig
+__MACOSX/
+.Trash/
+.rnd
+
+# Other
+*.bak
+
+build/*
+!.gitkeep
+
+.env*
